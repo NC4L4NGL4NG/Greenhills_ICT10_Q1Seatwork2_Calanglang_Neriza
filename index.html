@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Benjie's Music Store</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(217, 226, 255, 1) 100%);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 10px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.3rem 0;
+            font-size: 1rem;
+        }
+        section {
+            background: white;
+            margin: 1.5rem auto;
+            width: 80%;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        .table-container {
+      margin: 2rem auto;
+      width: 80%;
+      max-width: 500px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.8rem;
+      border: 1px solid #aaa;
+      text-align: center;
+    }
+    th {
+      background-color: #444;
+      color: white;
+    }
+    td {
+      background-color: #eee;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      color: #555;
+    }
+    
+        .status {
+            background: black;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Benjies Music Store</h1>
+        <p>Owner: Trinidad</p>
+        <p>Since 1956</p>
+    </header>
+
+   <section>
+        <h2>Musical Instruments</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price (₱)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ukelele</td>
+                    <td>₱300</td>
+                </tr>
+                <tr>
+                    <td>Piano</td>
+                    <td>₱1500</td>
+                </tr>
+                <tr>
+                    <td>Drums</td>
+                    <td>₱1940</td>
+                </tr>
+                <tr>
+                    <td>Basketballs/Volleyballs/Badmintons</td>
+                    <td>₱450</td>
+                </tr>
+                <tr>
+                    <td>Electric Guitar</td>
+                    <td>₱300</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Open: <strong>11:00 AM – 10:00 PM</strong></p>
+        <div class="status">Pre-Order Available</div>
+    </footer>
+
+
+
+    <!-- Link to Python script -->
+    <py-script src="main.py"></py-script>
+</body>
+</html>
